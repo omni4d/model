@@ -1,8 +1,4 @@
-class: 657a5bb6-fe90-4a2c-8c82-0b971345e696
-  name: omni4d.core.whole_part_tuple
-
-class: cefe79ce-86d0-4141-b8dc-b2653c188ed0
-  name: omni4d.core.person
-
-class: c3067e4b-4285-47f4-94b2-0729d2393326
-  name: omni4d.core.organisation
+class: omni4d.core.temporal_state
+class: omni4d.core.whole_part_tuple
+class: omni4d.core.person
+class: omni4d.core.organisation
