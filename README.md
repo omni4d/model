@@ -34,6 +34,6 @@ Those ideas are, in turn, based upon the work of:
 * [Georg Cantor](https://en.wikipedia.org/wiki/Georg_Cantor) Who gave us Set Thoery
 * [Gottlob Frege](https://en.wikipedia.org/wiki/Gottlob_Frege) Who used Set Theory to expand Aristotle's work and gave us the 'Logic Paradigm' with its notion of strong reference between signs within a model and real-world objects
 * [Albert Einstein](https://en.wikipedia.org/wiki/Albert_Einstein) Who realised that time is relative and gave us the 4D notion of spacetime
-* [Willard van Orman Quine](https://en.wikipedia.org/wiki/Willard_Van_Orman_Quine) Who realised that Einstein's ideas could be used to expand Frege's work and give us the 'Object Paradigm'
+* [Willard van Orman Quine](https://en.wikipedia.org/wiki/Willard_Van_Orman_Quine) Who realised that Einstein's ideas could be used to expand Frege's work and give us the '4D Spatio-Temporal Object Paradigm'
 
 and countless others.
