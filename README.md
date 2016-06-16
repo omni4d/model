@@ -22,7 +22,7 @@ Class and Tuple have further subtypes. All Class and Tuple signs must be one of 
 Every sign must have a unique id and tuples must contain a list of objects to which they refer.
 
 # Work
-The intention of this repository is to produce a set of YAML (https://en.wikipedia.org/wiki/YAML) files which are omni4d models. These can then be used as the basis for further implementations probably involving various database systems and programming languages.
+The intention of this repository is to produce a set of [YAML](https://en.wikipedia.org/wiki/YAML) files which are omni4d models. These can then be used as the basis for further implementations probably involving various database systems and programming languages.
 
 [core.yaml](https://github.com/omni4d/model/blob/master/core.yaml) contains the core model which is then used within [example.yaml](https://github.com/omni4d/model/blob/master/example.yaml) to represent the author of this repository.
 
