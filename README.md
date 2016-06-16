@@ -14,6 +14,9 @@ Class and Tuple have further subtypes:
 1. Class of Individuals
 2. Class of Classes
 2. Class of Events
-3. Class of Tuples
+3. Class of Tuples-
 4. Whole-Part Tuple
 5. Class-Member Tuple
+
+# Acknowledgments
+This work is based upon the ideas described by Chris Partridge in his book "Business Objects: Re-Engineering for Re-Use" (https://books.google.co.uk/books?id=BIFFAAAAYAAJ)
