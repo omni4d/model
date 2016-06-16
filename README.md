@@ -1,5 +1,5 @@
 # Model
-An omni4d model contains signs which refer to objects in the real world. There are n types of sign:
+An omni4d model contains signs which refer to objects in the real world. There are 4 basic types of sign:
 
 1. Individual - Refers to an object which has constant identity over time
 
@@ -9,3 +9,11 @@ An omni4d model contains signs which refer to objects in the real world. There a
 
 1. Tuple - Refers to a relationship between multiple objects
  
+Class and Tuple have further subtypes:
+
+1. Class of Individuals
+2. Class of Classes
+2. Class of Events
+3. Class of Tuples
+4. Whole-Part Tuple
+5. Class-Member Tuple
