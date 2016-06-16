@@ -33,7 +33,7 @@ whole_part_tuple:
   objects: [Owen Peter Campbell, Owen]
 whole_part_tuple:
   objects: [Owen Peter Campbell, Peter]
-whole_part_tuple::
+whole_part_tuple:
   objects: [Owen Peter Campbell, Campbell]
 # and now we can associate the name with the person
 ordinary_tuple: c15cb4d3-0e9c-4cbb-ba78-8c2c3359fd79
