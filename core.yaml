@@ -1,5 +1,4 @@
 class_of_individuals: omni4d.core.persons
-
 class_of_individuals: omni4d.core.character_strings
 class_of_individuals: omni4d.core.names
 whole_part_tuple: [omni4d.core.character_strings, omni4d.core.names]
