@@ -19,7 +19,7 @@ Class and Tuple have further subtypes. All Class and Tuple signs must be one of 
 * Class-Member Tuple - Indicating that the second object is a member of the first
 * Ordinary Tuple
 
-Every sign must have a unique id apnd tuples must contain a list of objects to which they refer.
+Every sign must have a unique id and tuples must contain a list of objects to which they refer.
 
 # Work
 The intention of this repository is to produce a set of [YAML](https://en.wikipedia.org/wiki/YAML) files which are omni4d models. These can then be used as the basis for further implementations probably involving various database systems and programming languages.
