@@ -9,7 +9,7 @@ class_of_tuples: omni4d.core.naming_tuples
 # Strictly speaking, every sign should have a unique id. Here, I am omitting
 # those for signs which are not re-used purely for purposes of clarity and
 # readability.
-
+#
 # Let's assert the existence of a person named Owen Peter Campbell
 # First, the individual sign
 individual: f2e9a339-3356-4535-b7a1-98f05a877448
