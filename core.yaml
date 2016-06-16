@@ -1,9 +1,0 @@
-# Classes of tuple
-class: omni4d.core.whole_part_tuple
-class: omni4d.core.class_member_tuple
-
-# Classes of object
-class: omni4d.core.temporal_state
-class: omni4d.core.identifier
-class: omni4d.core.person
-class: omni4d.core.organisation
