@@ -15,9 +15,11 @@ Class and Tuple have further subtypes. All Class and Tuple signs must be one of 
 2. Class of Classes
 2. Class of Events
 3. Class of Tuples
-4. Whole-Part Tuple - Indicating that the second item is part of the first
-5. Class-Member Tuple - Indicating that the second item is a member of the first
+4. Whole-Part Tuple - Indicating that the second object is part of the first
+5. Class-Member Tuple - Indicating that the second object is a member of the first
 6. Ordinary Tuple
+
+Every sign must have a unique id and tuples must contain a list of objects to which they refer.
 
 # Work
 The intention of this repository is to produce a set of YAML (https://en.wikipedia.org/wiki/YAML) files which are omni4d models. These can then be used as the basis for further implementations probably involving various database systems and programming languages.
