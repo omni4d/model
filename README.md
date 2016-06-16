@@ -23,4 +23,6 @@ Class and Tuple have further subtypes. All Class and Tuple signs must be one of 
 The intention of this repository is to produce a set of YAML (https://en.wikipedia.org/wiki/YAML) files which are omni4d models. These can then be used as the basis for further implementations probably involving various database systems and programming languages.
 
 # Acknowledgments
-This work is based upon the ideas described by Chris Partridge in his book "Business Objects: Re-Engineering for Re-Use" (https://books.google.co.uk/books?id=BIFFAAAAYAAJ)
+This work is based upon the ideas described by Chris Partridge in his book "Business Objects: Re-Engineering for Re-Use" (https://books.google.co.uk/books?id=BIFFAAAAYAAJ).
+
+Those ideas are, in turn, based upon the work of Aristotle, Georg Cantor, Gottlob Frege, Albert Einstein, Willard van Orman Quine and countless others.
