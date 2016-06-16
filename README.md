@@ -9,7 +9,7 @@ An omni4d model contains signs which refer to objects in the real world. There a
 
 1. Tuple - Refers to a relationship between multiple objects
  
-Class and Tuple have further subtypes:
+Class and Tuple have further subtypes. All Class and Tuple signs must be one of these subtypes rather than the basic type:
 
 1. Class of Individuals
 2. Class of Classes
@@ -17,6 +17,7 @@ Class and Tuple have further subtypes:
 3. Class of Tuples
 4. Sub-Part Tuple
 5. Class-Member Tuple
+6. Ordinary Tuple
 
 # Work
 The intention of this repository is to produce a set of YAML (https://en.wikipedia.org/wiki/YAML) files which are omni4d models. These can then be used as the basis for further implementations probably involving various database systems and programming languages.
