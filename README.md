@@ -1,5 +1,5 @@
 # Model
-An omni4d model contains signs which all refer to objects in the real world. There are 4 basic types of sign:
+An omni4d model contains signs which refer to objects in the real world. There are n types of sign:
 
 1. Individual - Refers to an object which has constant identity over time
 
