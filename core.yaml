@@ -13,30 +13,30 @@ class_member_tuple: [omni4d.core.person, f2e9a339-3356-4535-b7a1-98f05a877448]
 # Then we need some character character_strings
 individual: Owen
 class_member_tuple:
-  members: [omni4d.core.character_strings, Owen]
+  items: [omni4d.core.character_strings, Owen]
 individual: Peter
 class_member_tuple:
-  members: [omni4d.core.character_strings, Peter]
+  items: [omni4d.core.character_strings, Peter]
 individual: Campbell
 class_member_tuple:
-  members: [omni4d.core.character_strings, Campbell]
+  items: [omni4d.core.character_strings, Campbell]
 # Those strings are members of the names class
 class_member_tuple:
-  members: [omni4d.core.names, Owen]
+  items: [omni4d.core.names, Owen]
 class_member_tuple:
-  members: [omni4d.core.names, Peter]
+  items: [omni4d.core.names, Peter]
 class_member_tuple:
-  members: [omni4d.core.names, Campbell]
+  items: [omni4d.core.names, Campbell]
 # And the names can be assembled into a full name
 individual: Owen Peter Campbell
 whole_part_tuple:
-  members: [Owen Peter Campbell, Owen]
+  items: [Owen Peter Campbell, Owen]
 whole_part_tuple:
-  members: [Owen Peter Campbell, Peter]
+  items: [Owen Peter Campbell, Peter]
 whole_part_tuple::
-  members: [Owen Peter Campbell, Campbell]
+  items: [Owen Peter Campbell, Campbell]
 # and now we can associate the name with the person
 ordinary_tuple: c15cb4d3-0e9c-4cbb-ba78-8c2c3359fd79
-  members: [f2e9a339-3356-4535-b7a1-98f05a877448, Owen Peter Campbell]
+  items: [f2e9a339-3356-4535-b7a1-98f05a877448, Owen Peter Campbell]
 class_member_tuple:
-  members: [omni4d.core.naming_tuples, c15cb4d3-0e9c-4cbb-ba78-8c2c3359fd79]
+  items: [omni4d.core.naming_tuples, c15cb4d3-0e9c-4cbb-ba78-8c2c3359fd79]
