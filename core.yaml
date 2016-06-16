@@ -4,7 +4,7 @@ class_of_individuals: omni4d.core.names
 whole_part_tuple: [omni4d.core.character_strings, omni4d.core.names]
 class_of_tuples: omni4d.core.naming_tuples
 
-# Assert the existence of Owen Peter Campbell
+# Assert the existence of a person named Owen Peter Campbell
 # First, the individual sign
 individual: f2e9a339-3356-4535-b7a1-98f05a877448
 # Which is a member of the persons class
