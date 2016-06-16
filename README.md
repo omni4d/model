@@ -8,15 +8,15 @@ An omni4d model contains signs which refer to objects in the real world. There a
 1. Event - Refers to an object with extension across space at a point in time
 
 1. Tuple - Refers to a relationship between multiple objects
- 
+
 Class and Tuple have further subtypes. All Class and Tuple signs must be one of these subtypes rather than the basic type:
 
 1. Class of Individuals
 2. Class of Classes
 2. Class of Events
 3. Class of Tuples
-4. Sub-Part Tuple
-5. Class-Member Tuple
+4. Whole-Part Tuple - Indicating that the second item is part of the first
+5. Class-Member Tuple - Indicating that the second item is a member of the first
 6. Ordinary Tuple
 
 # Work
