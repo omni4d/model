@@ -18,5 +18,8 @@ Class and Tuple have further subtypes:
 4. Whole-Part Tuple
 5. Class-Member Tuple
 
+# Work
+The intention of this repository is to produce a set of YAML files which are omni4d models. These can then be used as the basis for further implementations probably involving various database systems and programming languages.
+
 # Acknowledgments
 This work is based upon the ideas described by Chris Partridge in his book "Business Objects: Re-Engineering for Re-Use" (https://books.google.co.uk/books?id=BIFFAAAAYAAJ)
