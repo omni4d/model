@@ -1,23 +1,23 @@
 # Model
 An omni4d model contains signs which refer to objects in the real world. There are 4 basic types of sign:
 
-1. Individual - Refers to an object which has constant identity over time
+* Individual - Refers to an object which has constant identity over time
 
-1. Class - Refers to a set of objects
+* Class - Refers to a set of objects
 
-1. Event - Refers to an object with extension across space at a point in time
+* Event - Refers to an object with extension across space at a point in time
 
-1. Tuple - Refers to a relationship between multiple objects
+* Tuple - Refers to a relationship between multiple objects
 
 Class and Tuple have further subtypes. All Class and Tuple signs must be one of these subtypes rather than the basic type:
 
-1. Class of Individuals
-2. Class of Classes
-2. Class of Events
-3. Class of Tuples
-4. Whole-Part Tuple - Indicating that the second object is part of the first
-5. Class-Member Tuple - Indicating that the second object is a member of the first
-6. Ordinary Tuple
+* Class of Individuals
+* Class of Classes
+* Class of Events
+* Class of Tuples
+* Whole-Part Tuple - Indicating that the second object is part of the first
+* Class-Member Tuple - Indicating that the second object is a member of the first
+* Ordinary Tuple
 
 Every sign must have a unique id and tuples must contain a list of objects to which they refer.
 
