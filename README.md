@@ -14,7 +14,7 @@ Class and Tuple have further subtypes:
 1. Class of Individuals
 2. Class of Classes
 2. Class of Events
-3. Class of Tuples-
+3. Class of Tuples
 4. Whole-Part Tuple
 5. Class-Member Tuple
 
