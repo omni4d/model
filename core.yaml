@@ -1,4 +1,4 @@
-class_of_individuals: omni4d.core.person
+class_of_individuals: omni4d.core.persons
 
 class_of_individuals: omni4d.core.character_strings
 class_of_individuals: omni4d.core.names
