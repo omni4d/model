@@ -22,6 +22,8 @@ Class and Tuple have further subtypes. All Class and Tuple signs must be one of 
 # Work
 The intention of this repository is to produce a set of YAML (https://en.wikipedia.org/wiki/YAML) files which are omni4d models. These can then be used as the basis for further implementations probably involving various database systems and programming languages.
 
+[core.yaml](https://github.com/omni4d/model/blob/master/core.yaml) contains the core model which is then used within [example.yaml](https://github.com/omni4d/model/blob/master/example.yaml) to represent the author of this repository.
+
 # Acknowledgments
 This work is based upon the ideas described by Chris Partridge in his book "Business Objects: Re-Engineering for Re-Use" (https://books.google.co.uk/books?id=BIFFAAAAYAAJ).
 
