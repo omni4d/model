@@ -6,20 +6,24 @@ omni4d.core.character_strings:
 
 omni4d.core.identifiers:
   type: class_of_individuals
+
 c8696a7c-db68-431a-bd51-100fd1804ec2:
   type: whole_part_tuple
   objects: [omni4d.core.character_strings, omni4d.core.identifiers]
 
 omni4d.core.names:
   type: class_of_individuals
+
 196e2a22-b5a9-4698-b571-eb51277b46da:
   type: class_member_tuple
   objects: [omni4d.core.identifiers, omni4d.core.names]
 
 omni4d.core.identification_tuples:
   type: class_of_tuples
+
 omni4d.core.naming_tuples:
   type: class_of_tuples
+
 f4e0e9b0-a597-4b39-81bb-d381f62bbbdb:
   type: class_member_tuple
   objects: [omni4d.core.identification_tuples, omni4d.core.naming_tuples]
