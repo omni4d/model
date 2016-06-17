@@ -19,7 +19,7 @@ omni4d.core.names:
   type: class_of_individuals
 
 196e2a22-b5a9-4698-b571-eb51277b46da:
-  type: class_member_tuple
+  type: whole_part_tuple
   objects:
     omni4d.core.identifiers:
       role: whole
@@ -33,7 +33,7 @@ omni4d.core.naming_tuples:
   type: class_of_tuples
 
 f4e0e9b0-a597-4b39-81bb-d381f62bbbdb:
-  type: class_member_tuple
+  type: whole_part_tuple
   objects:
     omni4d.core.identification_tuples:
       role: class
