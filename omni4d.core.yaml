@@ -1,4 +1,6 @@
 class_of_individuals: omni4d.core.persons
+
+# Naming Pattern
 class_of_individuals: omni4d.core.character_strings
 class_of_individuals: omni4d.core.names
 whole_part_tuple: c8696a7c-db68-431a-bd51-100fd1804ec2
