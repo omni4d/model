@@ -13,3 +13,6 @@ indent_style = space
 
 [*.{yaml, yml}]
 indent_size = 2
+
+[*.{py, md, rst}]
+indent_size = 4
