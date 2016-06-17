@@ -3,49 +3,49 @@
   <key attr.name="role" attr.type="string" for="edge" id="d1" />
   <key attr.name="type" attr.type="string" for="node" id="d0" />
   <graph edgedefault="undirected">
-    <node id="omni4d.core.naming_tuples">
-      <data key="d0">class_of_tuples</data>
-    </node>
-    <node id="omni4d.core.identification_tuples">
-      <data key="d0">class_of_tuples</data>
-    </node>
     <node id="omni4d.core.character_strings">
       <data key="d0">class_of_individuals</data>
     </node>
-    <node id="omni4d.core.names">
+    <node id="omni4d.core.persons">
       <data key="d0">class_of_individuals</data>
     </node>
     <node id="196e2a22-b5a9-4698-b571-eb51277b46da">
       <data key="d0">whole_part_tuple</data>
     </node>
-    <node id="c8696a7c-db68-431a-bd51-100fd1804ec2">
-      <data key="d0">whole_part_tuple</data>
+    <node id="omni4d.core.identification_tuples">
+      <data key="d0">class_of_tuples</data>
+    </node>
+    <node id="omni4d.core.names">
+      <data key="d0">class_of_individuals</data>
+    </node>
+    <node id="omni4d.core.naming_tuples">
+      <data key="d0">class_of_tuples</data>
     </node>
     <node id="omni4d.core.identifiers">
       <data key="d0">class_of_individuals</data>
     </node>
+    <node id="c8696a7c-db68-431a-bd51-100fd1804ec2">
+      <data key="d0">whole_part_tuple</data>
+    </node>
     <node id="f4e0e9b0-a597-4b39-81bb-d381f62bbbdb">
       <data key="d0">whole_part_tuple</data>
     </node>
-    <node id="omni4d.core.persons">
-      <data key="d0">class_of_individuals</data>
-    </node>
-    <edge source="omni4d.core.naming_tuples" target="f4e0e9b0-a597-4b39-81bb-d381f62bbbdb">
-      <data key="d1">part</data>
-    </edge>
-    <edge source="omni4d.core.identification_tuples" target="f4e0e9b0-a597-4b39-81bb-d381f62bbbdb">
-      <data key="d1">whole</data>
-    </edge>
     <edge source="omni4d.core.character_strings" target="c8696a7c-db68-431a-bd51-100fd1804ec2">
       <data key="d1">whole</data>
     </edge>
-    <edge source="omni4d.core.names" target="196e2a22-b5a9-4698-b571-eb51277b46da">
+    <edge source="196e2a22-b5a9-4698-b571-eb51277b46da" target="omni4d.core.names">
       <data key="d1">part</data>
     </edge>
     <edge source="196e2a22-b5a9-4698-b571-eb51277b46da" target="omni4d.core.identifiers">
       <data key="d1">whole</data>
     </edge>
-    <edge source="c8696a7c-db68-431a-bd51-100fd1804ec2" target="omni4d.core.identifiers">
+    <edge source="omni4d.core.identification_tuples" target="f4e0e9b0-a597-4b39-81bb-d381f62bbbdb">
+      <data key="d1">whole</data>
+    </edge>
+    <edge source="omni4d.core.naming_tuples" target="f4e0e9b0-a597-4b39-81bb-d381f62bbbdb">
+      <data key="d1">part</data>
+    </edge>
+    <edge source="omni4d.core.identifiers" target="c8696a7c-db68-431a-bd51-100fd1804ec2">
       <data key="d1">part</data>
     </edge>
   </graph>
