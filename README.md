@@ -24,7 +24,7 @@ Every sign must have a unique id and tuples must contain a list of objects to wh
 # Work
 The intention of this repository is to produce a set of [YAML](https://en.wikipedia.org/wiki/YAML) files which are omni4d models. These can then be used as the basis for further implementations probably involving various database systems and programming languages.
 
-[core.yaml](https://github.com/omni4d/model/blob/master/core.yaml) contains the core model which is then used within [example.yaml](https://github.com/omni4d/model/blob/master/example.yaml) to represent the author of this repository.
+[core.yaml](https://github.com/omni4d/model/blob/master/omni4d.core.yaml) contains the core model which is then used within [example.yaml](https://github.com/omni4d/model/blob/master/example.yaml) to represent the author of this repository.
 
 # Acknowledgments
 This work is based upon the idea of a 4D spatio-temporal object paradigm described by Chris Partridge in his book [Business Objects: Re-Engineering for Re-Use](https://books.google.co.uk/books?id=BIFFAAAAYAAJ).
