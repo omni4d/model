@@ -27,6 +27,6 @@ The intention of this repository is to produce a set of [YAML](https://en.wikipe
 [core.yaml](https://github.com/omni4d/model/blob/master/core.yaml) contains the core model which is then used within [example.yaml](https://github.com/omni4d/model/blob/master/example.yaml) to represent the author of this repository.
 
 # Acknowledgments
-This work is based upon the idea of a 4D spatio-temporal object paradigm described by Chris Partridge in his book "Business Objects: Re-Engineering for Re-Use" (https://books.google.co.uk/books?id=BIFFAAAAYAAJ).
+This work is based upon the idea of a 4D spatio-temporal object paradigm described by Chris Partridge in his book [Business Objects: Re-Engineering for Re-Use](https://books.google.co.uk/books?id=BIFFAAAAYAAJ).
 
 Those ideas are, in turn, based upon the work of [Aristotle](https://en.wikipedia.org/wiki/Aristotle), [Georg Cantor](https://en.wikipedia.org/wiki/Georg_Cantor), [Gottlob Frege](https://en.wikipedia.org/wiki/Gottlob_Frege), [Albert Einstein](https://en.wikipedia.org/wiki/Albert_Einstein), [Willard van Orman Quine](https://en.wikipedia.org/wiki/Willard_Van_Orman_Quine) and countless others.
