@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+     http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+    <key id="type" for="all" attr.name="type" attr.type="string"/>
+    <key id="role" for="edge" attr.name="role" attr.type="string"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="omni4d.core.persons">
+        <data key="type">class_of_individuals</data>
+    </node>
+    <node id="omni4d.core.character_strings">
+        <data key="type">class_of_individuals</data>
+    </node>
+    <node id="omni4d.core.identifiers">
+        <data key="type">class_of_individuals</data>
+    </node>
+    <node id="omni4d.core.names">
+        <data key="type">class_of_individuals</data>
+    </node>
+    <node id="c8696a7c-db68-431a-bd51-100fd1804ec2">
+        <data key="type">class_member_tuple</data>
+    </node>
+    <edge source="c8696a7c-db68-431a-bd51-100fd1804ec2" target="omni4d.core.character_strings">
+        <data key="role">class</data>
+    </edge>
+    <edge source="c8696a7c-db68-431a-bd51-100fd1804ec2" target="omni4d.core.identifiers">
+        <data key="role">member</data>
+    </edge>
+  </graph>
+</graphml>
