@@ -36,6 +36,6 @@ f4e0e9b0-a597-4b39-81bb-d381f62bbbdb:
   type: whole_part_tuple
   objects:
     omni4d.core.identification_tuples:
-      role: class
+      role: whole
     omni4d.core.naming_tuples:
-      role: member
+      role: part
