@@ -1,42 +1,87 @@
 # Using the signs from the core model, let's assert the existence of a person
-# named Owen Peter Campbell by way of example.
-#
-# Strictly speaking, every sign should have a unique id. Here, I am omitting
-# those for signs which are not re-used purely for purposes of clarity and
-# readability.
-#
-# First, the individual sign
-individual: f2e9a339-3356-4535-b7a1-98f05a877448
-# That individual is a member of the persons class
-class_member_tuple:
-  objects: [omni4d.core.person, f2e9a339-3356-4535-b7a1-98f05a877448]
-# Then we need some character_strings
-individual: Owen
-class_member_tuple:
-  objects: [omni4d.core.character_strings, Owen]
-individual: Peter
-class_member_tuple:
-  objects: [omni4d.core.character_strings, Peter]
-individual: Campbell
-class_member_tuple:
-  objects: [omni4d.core.character_strings, Campbell]
-# Those strings are members of the names class
-class_member_tuple:
-  objects: [omni4d.core.names, Owen]
-class_member_tuple:
-  objects: [omni4d.core.names, Peter]
-class_member_tuple:
-  objects: [omni4d.core.names, Campbell]
-# And the names can be assembled into a full name
-individual: Owen Peter Campbell
-whole_part_tuple:
-  objects: [Owen Peter Campbell, Owen]
-whole_part_tuple:
-  objects: [Owen Peter Campbell, Peter]
-whole_part_tuple:
-  objects: [Owen Peter Campbell, Campbell]
-# and now we can associate the name with the person
-ordinary_tuple: c15cb4d3-0e9c-4cbb-ba78-8c2c3359fd79
-  objects: [f2e9a339-3356-4535-b7a1-98f05a877448, Owen Peter Campbell]
-class_member_tuple:
-  objects: [omni4d.core.naming_tuples, c15cb4d3-0e9c-4cbb-ba78-8c2c3359fd79]
+# named Owen Campbell by way of example.
+
+
+# Firstly a sign to represent me, the individual with identity over time
+f2e9a339-3356-4535-b7a1-98f05a877448:
+  type: omni4d.core.individual
+
+# I'm a person, so my sign is a member of the persons class.
+# That's modelled with a class_member tuple
+54aed3aa-a965-4e97-9993-de6d87a003db:
+  type: class_member_tuple
+  objects:
+    omni4d.core.persons:
+      role: class
+    f2e9a339-3356-4535-b7a1-98f05a877448:
+      role: member
+
+# Then we need some character_strings for my name(s).
+# These are individuals which are members of the names class
+Owen:
+  type: individual
+
+a855d2c6-ab42-4002-b6dd-5018b33362a4:
+  type: class_member_tuple
+  objects:
+    omni4d.core.names:
+      role: class
+    Owen:
+      role: member
+
+Campbell:
+  type: individual
+
+f4d66afe-1f81-482a-913f-18512f99c3cd:
+  type: class_member_tuple
+  objects:
+    omni4d.core.names:
+      role: class
+    Campbell:
+      role: member
+
+Owen Campbell:
+  type: individual
+
+6813c9b4-2217-47a5-8460-f5913de4156c:
+    type: class_member_tuple
+  objects:
+    omni4d.core.names:
+      role: class
+    Owen Campbell:
+      role: member
+
+# The strings Owen and Campbell can be assembled to form my full name
+c75a2971-9a6a-4839-a381-fcf458680a90:
+  type: whole_part_tuple:
+  objects:
+  Owen Campbell:
+    role: whole
+  Owen:
+    role: part
+
+579c12e3-0057-498a-b995-8bc9f44e659a:
+  type: whole_part_tuple
+  objects:
+    Owen Campbell:
+      role: whole
+    Campbell:
+      role: part
+
+# Now we can use a tuple to associate the name with the person
+c15cb4d3-0e9c-4cbb-ba78-8c2c3359fd79:
+  type: ordinary_tuple
+  objects:
+    f2e9a339-3356-4535-b7a1-98f05a877448:
+      role: individual
+    Owen Peter Campbell:
+      role: name
+
+# That tuple is a member of the naming_tuples class
+b99852aa-03f8-4faf-b8eb-0e60486df7dc:
+  type: class_member_tuple:
+  objects:
+    omni4d.core.naming_tuples:
+      role: class
+    c15cb4d3-0e9c-4cbb-ba78-8c2c3359fd79:
+      role: member
