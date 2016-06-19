@@ -73,9 +73,9 @@ c15cb4d3-0e9c-4cbb-ba78-8c2c3359fd79:
   type: ordinary_tuple
   objects:
     f2e9a339-3356-4535-b7a1-98f05a877448:
-      role: individual
+      role: named_by
     Owen Campbell:
-      role: name
+      role: names
 
 # That tuple is a member of the naming_tuples class
 b99852aa-03f8-4faf-b8eb-0e60486df7dc:
