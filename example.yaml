@@ -4,7 +4,7 @@
 
 # Firstly a sign to represent me, the individual with identity over time
 f2e9a339-3356-4535-b7a1-98f05a877448:
-  type: omni4d.core.individual
+  type: individual
 
 # I'm a person, so my sign is a member of the persons class.
 # That's modelled with a class_member tuple
