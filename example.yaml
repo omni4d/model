@@ -79,7 +79,7 @@ c15cb4d3-0e9c-4cbb-ba78-8c2c3359fd79:
 
 # That tuple is a member of the naming_tuples class
 b99852aa-03f8-4faf-b8eb-0e60486df7dc:
-  type: class_member_tuple:
+  type: class_member_tuple
   objects:
     omni4d.core.naming_tuples:
       role: class
