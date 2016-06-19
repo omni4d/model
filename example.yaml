@@ -55,10 +55,10 @@ Owen Campbell:
 c75a2971-9a6a-4839-a381-fcf458680a90:
   type: whole_part_tuple:
   objects:
-  Owen Campbell:
-    role: whole
-  Owen:
-    role: part
+    Owen Campbell:
+      role: whole
+    Owen:
+      role: part
 
 579c12e3-0057-498a-b995-8bc9f44e659a:
   type: whole_part_tuple
