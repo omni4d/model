@@ -44,7 +44,7 @@ Owen Campbell:
   type: individual
 
 6813c9b4-2217-47a5-8460-f5913de4156c:
-    type: class_member_tuple
+  type: class_member_tuple
   objects:
     omni4d.core.names:
       role: class
