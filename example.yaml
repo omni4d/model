@@ -53,7 +53,7 @@ Owen Campbell:
 
 # The strings Owen and Campbell can be assembled to form my full name
 c75a2971-9a6a-4839-a381-fcf458680a90:
-  type: whole_part_tuple:
+  type: whole_part_tuple
   objects:
     Owen Campbell:
       role: whole
