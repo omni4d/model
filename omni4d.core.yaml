@@ -7,14 +7,6 @@ omni4d.core.character_strings:
 omni4d.core.identifiers:
   type: class_of_individuals
 
-c8696a7c-db68-431a-bd51-100fd1804ec2:
-  type: whole_part_tuple
-  objects:
-    omni4d.core.character_strings:
-      role: whole
-    omni4d.core.identifiers:
-      role: part
-
 omni4d.core.names:
   type: class_of_individuals
 
