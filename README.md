@@ -1,6 +1,7 @@
+[![Join the chat at https://gitter.im/omni4d/model](https://badges.gitter.im/omni4d/model.svg)](https://gitter.im/omni4d/model?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 # Model
 
-[![Join the chat at https://gitter.im/omni4d/model](https://badges.gitter.im/omni4d/model.svg)](https://gitter.im/omni4d/model?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 An omni4d model contains signs which refer to objects in the real world. There are 4 basic types of sign:
 
 * Individual - Refers to an object which has constant identity over time
