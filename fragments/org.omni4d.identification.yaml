@@ -28,7 +28,6 @@ org.omni4d.identification.196e2a22-b5a9-4698-b571-eb51277b46da:
     org.omni4d.identification.names:
       role: part
 
-
 # identification_tuples ⊆ class_of_tuples
 org.omni4d.identification.24d60956-7b32-449f-8dbe-b2857ddc4e33:
   type: whole_part_tuple
