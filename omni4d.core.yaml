@@ -1,14 +1,14 @@
 omni4d.core.persons:
-  type: class_of_individuals
+  type: class
 
 omni4d.core.character_strings:
-  type: class_of_individuals
+  type: class
 
 omni4d.core.identifiers:
-  type: class_of_individuals
+  type: class
 
 omni4d.core.names:
-  type: class_of_individuals
+  type: class
 
 196e2a22-b5a9-4698-b571-eb51277b46da:
   type: whole_part_tuple
@@ -19,10 +19,10 @@ omni4d.core.names:
       role: part
 
 omni4d.core.identification_tuples:
-  type: class_of_tuples
+  type: class
 
 omni4d.core.naming_tuples:
-  type: class_of_tuples
+  type: class
 
 f4e0e9b0-a597-4b39-81bb-d381f62bbbdb:
   type: whole_part_tuple
