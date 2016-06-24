@@ -23,6 +23,8 @@ Every sign must have a namespaced, unique id and tuples must contain a list of o
 # Work
 The intention of this repository is to produce a set of [YAML](https://en.wikipedia.org/wiki/YAML) files which are omni4d models. These can then be used as the basis for further implementations probably involving various database systems and programming languages.
 
+Each file contains a model 'fragment' and they can be found in the fragments directory of this repository.
+
 [org.omni4d.core.yaml](https://github.com/omni4d/model/blob/master/fragments/org.omni4d.core.yaml) contains the core model fragment and [org.omni4d.identification.yaml](https://github.com/omni4d/model/blob/master/fragments/org.omni4d.identification.yaml) the fragment describing the identification of individuals.
 
 These two fragments are then used within [org.omni4d.example.yaml](https://github.com/omni4d/model/blob/master/fragments/org.omni4d.example.yaml) to represent the author of this repository.
