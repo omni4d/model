@@ -33,7 +33,7 @@ org.omni4d.example.7b7cf235-67a9-4488-a8eb-200e0911b63d:
 org.omni4d.example.a855d2c6-ab42-4002-b6dd-5018b33362a4:
   type: class_member_tuple
   objects:
-    org.omni4d.core.names:
+    org.omni4d.identification.names:
       role: class
     Owen:
       role: member
@@ -52,7 +52,7 @@ org.omni4d.example.f6b5affa-90d6-45f4-beec-8b4c0df80a0d:
 org.omni4d.example.f4d66afe-1f81-482a-913f-18512f99c3cd:
   type: class_member_tuple
   objects:
-    org.omni4d.core.names:
+    org.omni4d.identification.names:
       role: class
     Campbell:
       role: member
@@ -71,7 +71,7 @@ org.omni4d.example.696c905b-2ceb-412e-86a9-4025fc70015a:
 org.omni4d.example.6813c9b4-2217-47a5-8460-f5913de4156c:
   type: class_member_tuple
   objects:
-    org.omni4d.core.names:
+    org.omni4d.identification.names:
       role: class
     Owen Campbell:
       role: member
@@ -106,7 +106,7 @@ org.omni4d.example.c15cb4d3-0e9c-4cbb-ba78-8c2c3359fd79:
 org.omni4d.example.b99852aa-03f8-4faf-b8eb-0e60486df7dc:
   type: class_member_tuple
   objects:
-    org.omni4d.core.naming_tuples:
+    org.omni4d.identification.naming_tuples:
       role: class
     org.omni4d.example.c15cb4d3-0e9c-4cbb-ba78-8c2c3359fd79:
       role: member
