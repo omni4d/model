@@ -1,15 +1,3 @@
-org.omni4d.identification.character_strings:
-  type: class
-
-# character_strings ⊆ class_of_individuals
-org.omni4d.identification.09426229-1827-4d47-95a8-c0be30ab8b67:
-  type: whole_part_tuple
-  objects:
-    org.omni4d.identification.class_of_individuals:
-      role: whole
-    org.omni4d.identification.character_strings:
-      role: part
-
 org.omni4d.identification.identifiers:
   type: class
 
