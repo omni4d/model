@@ -11,7 +11,7 @@ f2e9a339-3356-4535-b7a1-98f05a877448:
 54aed3aa-a965-4e97-9993-de6d87a003db:
   type: class_member_tuple
   objects:
-    omni4d.core.persons:
+    org.omni4d.core.persons:
       role: class
     f2e9a339-3356-4535-b7a1-98f05a877448:
       role: member
@@ -25,7 +25,7 @@ Owen:
 7b7cf235-67a9-4488-a8eb-200e0911b63d:
   type: class_member_tuple
   objects:
-    omni4d.core.character_strings:
+    org.omni4d.core.character_strings:
       role: class
     Owen:
       role: member
@@ -33,7 +33,7 @@ Owen:
 a855d2c6-ab42-4002-b6dd-5018b33362a4:
   type: class_member_tuple
   objects:
-    omni4d.core.names:
+    org.omni4d.core.names:
       role: class
     Owen:
       role: member
@@ -44,7 +44,7 @@ Campbell:
 f6b5affa-90d6-45f4-beec-8b4c0df80a0d:
   type: class_member_tuple
   objects:
-    omni4d.core.character_strings:
+    org.omni4d.core.character_strings:
       role: class
     Campbell:
       role: member
@@ -52,7 +52,7 @@ f6b5affa-90d6-45f4-beec-8b4c0df80a0d:
 f4d66afe-1f81-482a-913f-18512f99c3cd:
   type: class_member_tuple
   objects:
-    omni4d.core.names:
+    org.omni4d.core.names:
       role: class
     Campbell:
       role: member
@@ -63,7 +63,7 @@ Owen Campbell:
 696c905b-2ceb-412e-86a9-4025fc70015a:
   type: class_member_tuple
   objects:
-    omni4d.core.character_strings:
+    org.omni4d.core.character_strings:
       role: class
     Owen Campbell:
       role: member
@@ -71,7 +71,7 @@ Owen Campbell:
 6813c9b4-2217-47a5-8460-f5913de4156c:
   type: class_member_tuple
   objects:
-    omni4d.core.names:
+    org.omni4d.core.names:
       role: class
     Owen Campbell:
       role: member
@@ -106,7 +106,7 @@ c15cb4d3-0e9c-4cbb-ba78-8c2c3359fd79:
 b99852aa-03f8-4faf-b8eb-0e60486df7dc:
   type: class_member_tuple
   objects:
-    omni4d.core.naming_tuples:
+    org.omni4d.core.naming_tuples:
       role: class
     c15cb4d3-0e9c-4cbb-ba78-8c2c3359fd79:
       role: member
