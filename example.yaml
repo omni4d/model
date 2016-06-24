@@ -3,17 +3,17 @@
 
 
 # Firstly a sign to represent me, the individual with identity over time
-f2e9a339-3356-4535-b7a1-98f05a877448:
+org.omni4d.example.f2e9a339-3356-4535-b7a1-98f05a877448:
   type: individual
 
 # I'm a person, so my sign is a member of the persons class.
 # That's modelled with a class_member tuple
-54aed3aa-a965-4e97-9993-de6d87a003db:
+org.omni4d.example.54aed3aa-a965-4e97-9993-de6d87a003db:
   type: class_member_tuple
   objects:
     org.omni4d.core.persons:
       role: class
-    f2e9a339-3356-4535-b7a1-98f05a877448:
+    org.omni4d.example.f2e9a339-3356-4535-b7a1-98f05a877448:
       role: member
 
 # Then we need some character_strings for my name(s).
@@ -22,7 +22,7 @@ f2e9a339-3356-4535-b7a1-98f05a877448:
 Owen:
   type: individual
 
-7b7cf235-67a9-4488-a8eb-200e0911b63d:
+org.omni4d.example.7b7cf235-67a9-4488-a8eb-200e0911b63d:
   type: class_member_tuple
   objects:
     org.omni4d.core.character_strings:
@@ -30,7 +30,7 @@ Owen:
     Owen:
       role: member
 
-a855d2c6-ab42-4002-b6dd-5018b33362a4:
+org.omni4d.example.a855d2c6-ab42-4002-b6dd-5018b33362a4:
   type: class_member_tuple
   objects:
     org.omni4d.core.names:
@@ -41,7 +41,7 @@ a855d2c6-ab42-4002-b6dd-5018b33362a4:
 Campbell:
   type: individual
 
-f6b5affa-90d6-45f4-beec-8b4c0df80a0d:
+org.omni4d.example.f6b5affa-90d6-45f4-beec-8b4c0df80a0d:
   type: class_member_tuple
   objects:
     org.omni4d.core.character_strings:
@@ -49,7 +49,7 @@ f6b5affa-90d6-45f4-beec-8b4c0df80a0d:
     Campbell:
       role: member
 
-f4d66afe-1f81-482a-913f-18512f99c3cd:
+org.omni4d.example.f4d66afe-1f81-482a-913f-18512f99c3cd:
   type: class_member_tuple
   objects:
     org.omni4d.core.names:
@@ -60,7 +60,7 @@ f4d66afe-1f81-482a-913f-18512f99c3cd:
 Owen Campbell:
   type: individual
 
-696c905b-2ceb-412e-86a9-4025fc70015a:
+org.omni4d.example.696c905b-2ceb-412e-86a9-4025fc70015a:
   type: class_member_tuple
   objects:
     org.omni4d.core.character_strings:
@@ -68,7 +68,7 @@ Owen Campbell:
     Owen Campbell:
       role: member
 
-6813c9b4-2217-47a5-8460-f5913de4156c:
+org.omni4d.example.6813c9b4-2217-47a5-8460-f5913de4156c:
   type: class_member_tuple
   objects:
     org.omni4d.core.names:
@@ -77,7 +77,7 @@ Owen Campbell:
       role: member
 
 # The strings Owen and Campbell can be assembled to form my full name
-c75a2971-9a6a-4839-a381-fcf458680a90:
+org.omni4d.example.c75a2971-9a6a-4839-a381-fcf458680a90:
   type: whole_part_tuple
   objects:
     Owen Campbell:
@@ -85,7 +85,7 @@ c75a2971-9a6a-4839-a381-fcf458680a90:
     Owen:
       role: part
 
-579c12e3-0057-498a-b995-8bc9f44e659a:
+org.omni4d.example.579c12e3-0057-498a-b995-8bc9f44e659a:
   type: whole_part_tuple
   objects:
     Owen Campbell:
@@ -94,19 +94,19 @@ c75a2971-9a6a-4839-a381-fcf458680a90:
       role: part
 
 # Now we can use a tuple to associate the name with the person
-c15cb4d3-0e9c-4cbb-ba78-8c2c3359fd79:
+org.omni4d.example.c15cb4d3-0e9c-4cbb-ba78-8c2c3359fd79:
   type: ordinary_tuple
   objects:
-    f2e9a339-3356-4535-b7a1-98f05a877448:
+    org.omni4d.example.f2e9a339-3356-4535-b7a1-98f05a877448:
       role: named_by
     Owen Campbell:
       role: names
 
 # That tuple is a member of the naming_tuples class
-b99852aa-03f8-4faf-b8eb-0e60486df7dc:
+org.omni4d.example.b99852aa-03f8-4faf-b8eb-0e60486df7dc:
   type: class_member_tuple
   objects:
     org.omni4d.core.naming_tuples:
       role: class
-    c15cb4d3-0e9c-4cbb-ba78-8c2c3359fd79:
+    org.omni4d.example.c15cb4d3-0e9c-4cbb-ba78-8c2c3359fd79:
       role: member
