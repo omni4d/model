@@ -28,7 +28,7 @@ The intention of this repository is to produce a set of [YAML](https://en.wikipe
 These two fragments are then used within [org.omni4d.example.yaml](https://github.com/omni4d/model/blob/master/fragments/org.omni4d.example.yaml) to represent the author of this repository.
 
 # Acknowledgments
-This work is based upon the idea of a 4D spatio-temporal object paradigm described by Chris Partridge in his book [Business Objects: Re-Engineering for Re-Use](https://books.google.co.uk/books?id=BIFFAAAAYAAJ).
+This work was inspired by the idea of a 4D spatio-temporal object paradigm described by Chris Partridge in his book [Business Objects: Re-Engineering for Re-Use](https://books.google.co.uk/books?id=BIFFAAAAYAAJ).
 
 Those ideas are, in turn, based upon the work of:
 * [Aristotle](https://en.wikipedia.org/wiki/Aristotle), the founding father of human attempt to model the world who gave us the 'Substance Paradigm'
