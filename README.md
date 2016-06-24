@@ -12,12 +12,8 @@ An omni4d model contains signs which refer to objects in the real world. There a
 
 * Tuple - Refers to a relationship between multiple objects
 
-Class and Tuple have further subtypes. All Class and Tuple signs must be one of these subtypes rather than the basic type:
+Tuple has further subtypes. All Tuple signs must be one of these subtypes rather than the basic type:
 
-* Class of Individuals
-* Class of Classes
-* Class of Events
-* Class of Tuples
 * Whole-Part Tuple - Indicating that the second object is part of the first
 * Class-Member Tuple - Indicating that the second object is a member of the first
 * Ordinary Tuple
