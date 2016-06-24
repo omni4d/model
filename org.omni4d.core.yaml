@@ -13,6 +13,12 @@ org.omni4d.core.class_of_classes:
 org.omni4d.core.persons:
   type: class
 
+org.omni4d.core.organisations:
+  type: class
+
+org.omni4d.identification.character_strings:
+  type: class
+
 # persons ⊆ class_of_individuals
 org.omni4d.core.725dd8a4-93ef-4621-af5d-1211af9b9a0c:
   type: whole_part_tuple
@@ -22,8 +28,14 @@ org.omni4d.core.725dd8a4-93ef-4621-af5d-1211af9b9a0c:
     org.omni4d.core.persons:
       role: part
 
-org.omni4d.identification.character_strings:
-  type: class
+# organisations ⊆ class_of_individuals
+org.omni4d.core.856b4c42-c9c7-458a-ae4b-2769bb74583e:
+  type: whole_part_tuple
+  objects:
+    org.omni4d.core.class_of_individuals:
+      role: whole
+    org.omni4d.core.organisations:
+      role: part
 
 # character_strings ⊆ class_of_individuals
 org.omni4d.identification.09426229-1827-4d47-95a8-c0be30ab8b67:
