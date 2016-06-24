@@ -1,33 +1,33 @@
-omni4d.core.persons:
+org.omni4d.core.persons:
   type: class
 
-omni4d.core.character_strings:
+org.omni4d.core.character_strings:
   type: class
 
-omni4d.core.identifiers:
+org.omni4d.core.identifiers:
   type: class
 
-omni4d.core.names:
+org.omni4d.core.names:
   type: class
 
 196e2a22-b5a9-4698-b571-eb51277b46da:
   type: whole_part_tuple
   objects:
-    omni4d.core.identifiers:
+    org.omni4d.core.identifiers:
       role: whole
-    omni4d.core.names:
+    org.omni4d.core.names:
       role: part
 
-omni4d.core.identification_tuples:
+org.omni4d.core.identification_tuples:
   type: class
 
-omni4d.core.naming_tuples:
+org.omni4d.core.naming_tuples:
   type: class
 
 f4e0e9b0-a597-4b39-81bb-d381f62bbbdb:
   type: whole_part_tuple
   objects:
-    omni4d.core.identification_tuples:
+    org.omni4d.core.identification_tuples:
       role: whole
-    omni4d.core.naming_tuples:
+    org.omni4d.core.naming_tuples:
       role: part
