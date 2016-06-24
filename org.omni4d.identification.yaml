@@ -5,7 +5,7 @@ org.omni4d.identification.identifiers:
 org.omni4d.identification.b11bfa82-1b00-405f-8b9c-553f39b6d92f:
   type: whole_part_tuple
   objects:
-    org.omni4d.identification.class_of_individuals:
+    org.omni4d.core.class_of_individuals:
       role: whole
     org.omni4d.identification.identifiers:
       role: part
@@ -29,9 +29,9 @@ org.omni4d.identification.identification_tuples:
 org.omni4d.identification.24d60956-7b32-449f-8dbe-b2857ddc4e33:
   type: whole_part_tuple
   objects:
-    org.omni4d.identification.identification_tuples:
+    org.omni4d.core.class_of_tuples:
       role: whole
-    org.omni4d.identification.class_of_tuples:
+    org.omni4d.identification.identification_tuples:
       role: part
 
 org.omni4d.identification.naming_tuples:
