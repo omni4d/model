@@ -5,7 +5,6 @@
 #
 # To use, create a shortcut to this file in .git/hooks called
 # 'prepare-commit-msg' e.g. from top folder of your project:
-#     mkdir .git/hooks
 #     cd .git/hooks
 #     ln -s ./prepare-commit-msg.py prepare-commit-msg
 
