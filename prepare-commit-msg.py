@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # This script is intended to be used a a git hook and will prepend the ticket
-# number to a commit message in the correct format for Gitlab to parse.
+# number to a commit message in the correct format for Github/Gitlab to parse.
 #
 # To use, create a shortcut to this file in .git/hooks called
 # 'prepare-commit-msg' e.g. from top folder of your project:
