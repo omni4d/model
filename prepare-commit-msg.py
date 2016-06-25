@@ -13,6 +13,13 @@ import sys
 import re
 from subprocess import check_output
 
+# By default, the hook will check to see if the branch name starts with
+# 'ticket-' and will then prepend whatever follows in the commit message.
+# e.g. for a branch named 'ticket-123', the commit message will start with
+# '[#123]'
+# If you wish to use a diferent prefix on branch names, change it here.
+ticket_prefix = 'ticket-'
+
 # Collect the parameters
 commit_msg_filepath = sys.argv[1]
 if len(sys.argv) > 2:
@@ -32,7 +39,7 @@ branch = check_output(
 print("prepare-commit-msg: On branch '%s'" % branch)
 
 # Populate the commit message with the issue #, if there is one
-if branch.startswith('ticket-'):
+if branch.startswith(ticket_prefix):
     print("prepare-commit-msg: It's a ticket branch.")
     result = re.match('ticket-(.*)', branch)
     issue_number = result.group(1)
