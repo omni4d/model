@@ -114,7 +114,7 @@ org.omni4d.core.character_strings-individuals:
 org.omni4d.core.classify-character_strings-individuals:
   type: tuple
   objects:
-    org.omni4d.part_subpart_tuples:
+    org.omni4d.core.part_subpart_tuples:
       role: class
     org.omni4d.core.character_strings-individuals:
       role: member
