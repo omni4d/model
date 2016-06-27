@@ -36,7 +36,7 @@ org.omni4d.core.part_subpart_tuples:
 # those assertions:
 
 # 1) Any tuple linking another 'target' tuple to the class class_member_tuples
-# indicate that the target tuple is a member of that class.
+# indicates that the target tuple is a member of that class.
 
 # 2) The tuple that links part_subpart_tuples and class_of_tuples indicates that
 # former is a subpart of the latter.
