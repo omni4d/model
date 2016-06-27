@@ -46,7 +46,7 @@ org.omni4d.core.second_assertion_tuple:
   type: tuple
   objects:
     org.omni4d.core.class_of_tuples:
-      role: subpart
+      role: part
     org.omni4d.core.part_subpart_tuples:
       role: subpart
 
