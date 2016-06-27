@@ -35,15 +35,15 @@ branch = check_output(
     ['git', 'symbolic-ref', '--short', 'HEAD']
 ).strip().decode(encoding='UTF-8')
 
-print("prepare-commit-msg: On branch '%s'" % branch)
-
 # Populate the commit message with the issue #, if there is one
 if branch.startswith(ticket_prefix):
-    print("prepare-commit-msg: It's a ticket branch.")
     result = re.match('ticket-(.*)', branch)
     issue_number = result.group(1)
+    print("prepare-commit-msg: Prepending [#%s] to commit message" % issue_number)
 
     with open(commit_msg_filepath, 'r+') as f:
         content = f.read()
         f.seek(0, 0)
         f.write("[#%s] %s" % (issue_number, content))
+else:
+    print("prepare-commit-msg: No changes made to commit message")
