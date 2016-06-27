@@ -52,7 +52,7 @@ org.omni4d.core.part_subpart_assertion_tuple:
 
 
 # In order to represent individual people, we create the class persons. All
-# signs representing people will belong to that class.
+# signs representing people will belong to this class.
 org.omni4d.core.persons:
   type: class
 
