@@ -72,7 +72,7 @@ org.omni4d.core.persons-individuals:
 org.omni4d.core.classify-persons-individuals:
   type: tuple
   objects:
-    org.omni4d.part_subpart_tuples:
+    org.omni4d.core.part_subpart_tuples:
       role: class
     org.omni4d.core.persons-individuals:
       role: member
@@ -93,7 +93,7 @@ org.omni4d.core.organisations-individuals:
 org.omni4d.core.classify-organisations-individuals:
   type: tuple
   objects:
-    org.omni4d.part_subpart_tuples:
+    org.omni4d.core.part_subpart_tuples:
       role: class
     org.omni4d.core.organisations-individuals:
       role: member
