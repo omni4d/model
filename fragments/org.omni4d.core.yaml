@@ -8,7 +8,7 @@ org.omni4d.core.class_of_events:
 org.omni4d.core.class_of_tuples:
   type: class
 
-org.omni4d.core.class_of_classes:
+org.omni4d.core.class_of_classes:part
   type: class
 
 
@@ -46,7 +46,7 @@ org.omni4d.core.part_subpart_assertion_tuple:
   type: tuple
   objects:
     org.omni4d.core.class_of_tuples:
-      role: part
+      role: subpart
     org.omni4d.core.part_subpart_tuples:
       role: subpart
 
@@ -62,9 +62,9 @@ org.omni4d.core.persons-individuals:
   type: tuple
   objects:
     org.omni4d.core.class_of_individuals:
-      role: whole
-    org.omni4d.core.persons:
       role: part
+    org.omni4d.core.persons:
+      role: subpart
 
 # In order to show that the previous tuple is a part_subpart tuple, we make it a
 # member of the part_subpart_tuples class. This is an example of the first
@@ -86,9 +86,9 @@ org.omni4d.core.organisations-individuals:
   type: tuple
   objects:
     org.omni4d.core.class_of_individuals:
-      role: whole
-    org.omni4d.core.organisations:
       role: part
+    org.omni4d.core.organisations:
+      role: subpart
 
 org.omni4d.core.classify-organisations-individuals:
   type: tuple
@@ -107,9 +107,9 @@ org.omni4d.core.character_strings-individuals:
   type: tuple
   objects:
     org.omni4d.core.class_of_individuals:
-      role: whole
-    org.omni4d.core.character_strings:
       role: part
+    org.omni4d.core.character_strings:
+      role: subpart
 
 org.omni4d.core.classify-character_strings-individuals:
   type: tuple
