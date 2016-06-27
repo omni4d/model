@@ -39,7 +39,7 @@ org.omni4d.core.part_subpart_tuples:
 # itself a member of the class_member_tuples class
 
 # 2) The tuple that links part_subpart_tuples and class_of_tuples indicates that
-# former is a subpart of the latter.
+# the former is a subpart of the latter.
 
 # The tuple referred to in the second assertion:
 org.omni4d.core.part_subpart_assertion_tuple:
