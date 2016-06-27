@@ -1,3 +1,4 @@
+# In most circumstances, classes should consist of signs of the same type.
 org.omni4d.core.class_of_individuals:
   type: class
 
@@ -10,38 +11,110 @@ org.omni4d.core.class_of_tuples:
 org.omni4d.core.class_of_classes:
   type: class
 
+
+# Two classes of tuples are particularly important in the omni4d view of the
+# world: class_member and part_subpart.
+
+org.omni4d.core.class_member_tuples:
+  type: class
+
+org.omni4d.core.part_subpart_tuples:
+  type: class
+
+# A problem of recursion arises: How do we make a tuple a member of the
+# class_member_tuples class? If we use a class_member tuple to do so,  how do we
+# make that tuple a member of the class_members class?
+
+# A similar issue arises when we attempt to show that the part_subpart_tuples
+# class has a part_subpart relationship with class_of_tuples.
+
+# One solution would be to create subtypes of tuple and insist that all tuple
+# signs must of one of those subtypes rather than the base type; effectively
+# embedding the meaning we desire within the type system.
+
+# Instead, we make two assertions and embed the meaning we desire within
+# those assertions:
+
+# 1) Any tuple linking another 'target' tuple to the class class_member_tuples
+# indicate that the target tuple is a member of that class.
+
+# 2) The tuple that links part_subpart_tuples and class_of_tuples indicates that
+# former is a subpart of the latter.
+
+# The tuple referred to in the second assertion:
+org.omni4d.core.part_subpart_assertion_tuple:
+  type: tuple
+  objects:
+    org.omni4d.core.class_of_tuples:
+      role: part
+    org.omni4d.core.part_subpart_tuples:
+      role: subpart
+
+
+# In order to represent individual people, we create the class persons. All
+# signs representing people will belong to that class.
 org.omni4d.core.persons:
   type: class
 
-org.omni4d.core.organisations:
-  type: class
-
-org.omni4d.core.character_strings:
-  type: class
-
-# persons ⊆ class_of_individuals
-org.omni4d.core.725dd8a4-93ef-4621-af5d-1211af9b9a0c:
-  type: whole_part_tuple
+# The persons class is a subpart of class_of_individuals. We use a tuple to link
+# the two.
+org.omni4d.core.persons_individuals:
+  type: tuple
   objects:
     org.omni4d.core.class_of_individuals:
       role: whole
     org.omni4d.core.persons:
       role: part
 
-# organisations ⊆ class_of_individuals
-org.omni4d.core.856b4c42-c9c7-458a-ae4b-2769bb74583e:
-  type: whole_part_tuple
+# In order to show that the previous tuple is a part_subpart tuple, make it a
+# member of the part_subpart_tuples class. This is an example of the first
+# assertion.
+org.omni4d.core.classify_persons_individuals:
+  type: tuple
+  objects:
+    org.omni4d.part_subpart_tuples:
+      role: class
+    org.omni4d.core.persons_individuals:
+      role: member
+
+
+# A similar pattern arises for organisations.
+org.omni4d.core.organisations:
+  type: class
+
+org.omni4d.core.organisations_individuals:
+  type: tuple
   objects:
     org.omni4d.core.class_of_individuals:
       role: whole
     org.omni4d.core.organisations:
       role: part
 
-# character_strings ⊆ class_of_individuals
-org.omni4d.core.09426229-1827-4d47-95a8-c0be30ab8b67:
-  type: whole_part_tuple
+org.omni4d.core.classify_organisations_individuals:
+  type: tuple
+  objects:
+    org.omni4d.part_subpart_tuples:
+      role: class
+    org.omni4d.core.organisations_individuals:
+      role: member
+
+
+# And the same pattern again for character_strings
+org.omni4d.core.character_strings:
+  type: class
+
+org.omni4d.core.character_strings_individuals:
+  type: tuple
   objects:
     org.omni4d.core.class_of_individuals:
       role: whole
     org.omni4d.core.character_strings:
       role: part
+
+org.omni4d.core.classify_character_strings_individuals:
+  type: tuple
+  objects:
+    org.omni4d.part_subpart_tuples:
+      role: class
+    org.omni4d.core.character_strings_individuals:
+      role: member
