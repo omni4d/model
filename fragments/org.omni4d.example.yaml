@@ -83,7 +83,7 @@ org.omni4d.example.owen-owen_campbell:
   type: tuple
   objects:
     Owen Campbell:
-      role: subpart
+      role: part
     Owen:
       role: subpart
 
@@ -91,7 +91,7 @@ org.omni4d.example.campbell-owen_campbell:
   type: tuple
   objects:
     Owen Campbell:
-      role: subpart
+      role: part
     Campbell:
       role: subpart
 
