@@ -42,7 +42,7 @@ org.omni4d.core.part_subpart_tuples:
 # the former is a subpart of the latter.
 
 # The tuple referred to in the second assertion:
-org.omni4d.core.part_subpart_assertion_tuple:
+org.omni4d.core.second_assertion_tuple:
   type: tuple
   objects:
     org.omni4d.core.class_of_tuples:
