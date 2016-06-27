@@ -1,6 +1,6 @@
 [![Join the chat at https://gitter.im/omni4d/model](https://badges.gitter.im/omni4d/model.svg)](https://gitter.im/omni4d/model?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-# Model
+# An Omni4d Model
 
 An omni4d model contains signs which refer to objects in the real world. There are 4 basic types of sign:
 
@@ -12,15 +12,9 @@ An omni4d model contains signs which refer to objects in the real world. There a
 
 * Tuple - Refers to a relationship between multiple objects
 
-Tuple has further subtypes. All Tuple signs must be one of these subtypes rather than the basic type:
-
-* Whole-Part Tuple - Indicating that the second object is part of the first
-* Class-Member Tuple - Indicating that the second object is a member of the first
-* Ordinary Tuple
-
 Every sign must have a namespaced, unique id and tuples must contain a list of objects to which they refer.
 
-# Work
+# This Project
 The intention of this repository is to produce a set of [YAML](https://en.wikipedia.org/wiki/YAML) files which are omni4d models. These can then be used as the basis for further implementations probably involving various database systems and programming languages.
 
 Each file contains a model 'fragment' and they can be found in the fragments directory of this repository.
