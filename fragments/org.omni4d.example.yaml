@@ -99,7 +99,7 @@ org.omni4d.example.campbell-owen_campbell:
 org.omni4d.example.classify-owen-owen_campbell:
   type: tuple
   objects:
-    org.omni4d.whole_part_tuples:
+    org.omni4d.core.whole_part_tuples:
       role: class
     org.omni4d.example.owen-owen_campbell:
       role: member
@@ -107,7 +107,7 @@ org.omni4d.example.classify-owen-owen_campbell:
 org.omni4d.example.classify-campbell-owen_campbell:
   type: tuple
   objects:
-    org.omni4d.whole_part_tuples:
+    org.omni4d.core.whole_part_tuples:
       role: class
     org.omni4d.example.campbell-owen_campbell:
       role: member
