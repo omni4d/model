@@ -6,7 +6,7 @@
 # To use, create a shortcut to this file in .git/hooks called
 # 'prepare-commit-msg' e.g. from top folder of your project:
 #     cd .git/hooks
-#     ln -s ./prepare-commit-msg.py prepare-commit-msg
+#     ln -s ./utils/prepare-commit-msg.py prepare-commit-msg
 
 import sys
 import re
