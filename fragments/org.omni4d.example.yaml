@@ -43,7 +43,7 @@ Campbell:
   type: individual
 
 org.omni4d.example.campbell-character_strings:
-  type: class_member_tuple
+  type: tuple
   objects:
     org.omni4d.core.character_strings:
       role: class
