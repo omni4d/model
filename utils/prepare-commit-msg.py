@@ -25,8 +25,7 @@ branch = check_output(
 ).strip().decode(encoding='UTF-8')
 
 if branch.startswith(ticket_prefix):
-    result = re.match('%s(.*)' % ticket_prefix, branch)
-    issue_number = result.group(1)
+    issue_number = re.match('%s(.*)' % ticket_prefix, branch).group(1)
     print("prepare-commit-msg: Prepending [#%s] to commit message" % issue_number)
 
     with open(commit_msg_filepath, 'r+') as f:
