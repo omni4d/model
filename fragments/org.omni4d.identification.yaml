@@ -1,7 +1,7 @@
 org.omni4d.identification.identifiers:
   type: class
 
-org.omni4d.identification.identifiers_individuals:
+org.omni4d.identification.identifiers-individuals:
   type: tuple
   objects:
     org.omni4d.core.class_of_individuals:
@@ -9,12 +9,12 @@ org.omni4d.identification.identifiers_individuals:
     org.omni4d.identification.identifiers:
       role: part
 
-org.omni4d.identification.classify_identifiers_individuals:
+org.omni4d.identification.classify-identifiers-individuals:
   type: tuple
   objects:
     org.omni4d.core.part_subpart_tuples:
       role: class
-    org.omni4d.identification.identifiers_individuals:
+    org.omni4d.identification.identifiers-individuals:
       role: member
 
 
@@ -22,7 +22,7 @@ org.omni4d.identification.classify_identifiers_individuals:
 org.omni4d.identification.names:
   type: class
 
-org.omni4d.identification.names_individuals:
+org.omni4d.identification.names-individuals:
   type: tuple
   objects:
     org.omni4d.identification.identifiers:
@@ -30,12 +30,12 @@ org.omni4d.identification.names_individuals:
     org.omni4d.identification.names:
       role: part
 
-org.omni4d.identification.classify_names_individuals:
+org.omni4d.identification.classify-names-individuals:
   type: tuple
   objects:
     org.omni4d.core.part_subpart_tuples:
       role: class
-    org.omni4d.identification.names_individuals:
+    org.omni4d.identification.names-individuals:
       role: member
 
 
@@ -43,7 +43,7 @@ org.omni4d.identification.classify_names_individuals:
 org.omni4d.identification.identification_tuples:
   type: class
 
-org.omni4d.identification.identification_tuples_class_of_tuple:
+org.omni4d.identification.identification_tuples-class_of_tuples:
   type: tuple
   objects:
     org.omni4d.core.class_of_tuples:
@@ -51,12 +51,12 @@ org.omni4d.identification.identification_tuples_class_of_tuple:
     org.omni4d.identification.identification_tuples:
       role: part
 
-org.omni4d.identification.classify_identification_tuples_class_of_tuple:
+org.omni4d.identification.classify-identification_tuples-class_of_tuples:
   type: tuple
   objects:
     org.omni4d.core.part_subpart_tuples:
       role: class
-    org.omni4d.identification.identification_tuples_class_of_tuple:
+    org.omni4d.identification.identification_tuples-class_of_tuples:
       role: member
 
 
@@ -64,7 +64,7 @@ org.omni4d.identification.classify_identification_tuples_class_of_tuple:
 org.omni4d.identification.naming_tuples:
   type: class
 
-org.omni4d.identification.naming_tuples_identification_tuples:
+org.omni4d.identification.naming_tuples-identification_tuples:
   type: tuple
   objects:
     org.omni4d.identification.identification_tuples:
@@ -72,10 +72,10 @@ org.omni4d.identification.naming_tuples_identification_tuples:
     org.omni4d.identification.naming_tuples:
       role: part
 
-org.omni4d.identification.classify_naming_tuples_identification_tuples:
+org.omni4d.identification.classify-naming_tuples-identification_tuples:
   type: tuple
   objects:
     org.omni4d.core.part_subpart_tuples:
       role: class
-    org.omni4d.identification.naming_tuples_identification_tuples:
+    org.omni4d.identification.naming_tuples-identification_tuples:
       role: member

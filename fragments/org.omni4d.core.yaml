@@ -58,7 +58,7 @@ org.omni4d.core.persons:
 
 # The persons class is a subpart of class_of_individuals. We use a tuple to link
 # the two.
-org.omni4d.core.persons_individuals:
+org.omni4d.core.persons-individuals:
   type: tuple
   objects:
     org.omni4d.core.class_of_individuals:
@@ -69,12 +69,12 @@ org.omni4d.core.persons_individuals:
 # In order to show that the previous tuple is a part_subpart tuple, we make it a
 # member of the part_subpart_tuples class. This is an example of the first
 # assertion.
-org.omni4d.core.classify_persons_individuals:
+org.omni4d.core.classify-persons-individuals:
   type: tuple
   objects:
     org.omni4d.part_subpart_tuples:
       role: class
-    org.omni4d.core.persons_individuals:
+    org.omni4d.core.persons-individuals:
       role: member
 
 
@@ -82,7 +82,7 @@ org.omni4d.core.classify_persons_individuals:
 org.omni4d.core.organisations:
   type: class
 
-org.omni4d.core.organisations_individuals:
+org.omni4d.core.organisations-individuals:
   type: tuple
   objects:
     org.omni4d.core.class_of_individuals:
@@ -90,12 +90,12 @@ org.omni4d.core.organisations_individuals:
     org.omni4d.core.organisations:
       role: part
 
-org.omni4d.core.classify_organisations_individuals:
+org.omni4d.core.classify-organisations-individuals:
   type: tuple
   objects:
     org.omni4d.part_subpart_tuples:
       role: class
-    org.omni4d.core.organisations_individuals:
+    org.omni4d.core.organisations-individuals:
       role: member
 
 
@@ -103,7 +103,7 @@ org.omni4d.core.classify_organisations_individuals:
 org.omni4d.core.character_strings:
   type: class
 
-org.omni4d.core.character_strings_individuals:
+org.omni4d.core.character_strings-individuals:
   type: tuple
   objects:
     org.omni4d.core.class_of_individuals:
@@ -111,10 +111,10 @@ org.omni4d.core.character_strings_individuals:
     org.omni4d.core.character_strings:
       role: part
 
-org.omni4d.core.classify_character_strings_individuals:
+org.omni4d.core.classify-character_strings-individuals:
   type: tuple
   objects:
     org.omni4d.part_subpart_tuples:
       role: class
-    org.omni4d.core.character_strings_individuals:
+    org.omni4d.core.character_strings-individuals:
       role: member
