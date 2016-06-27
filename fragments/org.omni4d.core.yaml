@@ -35,8 +35,8 @@ org.omni4d.core.part_subpart_tuples:
 # Instead, we make two assertions and embed the meaning we desire within
 # those assertions:
 
-# 1) Any tuple linking another 'target' tuple to the class class_member_tuples
-# indicates that the target tuple is a member of that class.
+# 1) Any tuple whose member objects have roles entitled 'member' and 'class' is
+# itself a member of the class_member_tuples class
 
 # 2) The tuple that links part_subpart_tuples and class_of_tuples indicates that
 # former is a subpart of the latter.
