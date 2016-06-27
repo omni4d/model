@@ -127,5 +127,5 @@ org.omni4d.example.classify-owen_campbell-1:
   objects:
     org.omni4d.identification.naming_tuples:
       role: class
-    org.omni4d.example.c15cb4d3-0e9c-4cbb-ba78-8c2c3359fd79:
+    org.omni4d.example.owen_campbell-1:
       role: member
