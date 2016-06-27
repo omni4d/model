@@ -83,23 +83,23 @@ org.omni4d.example.owen-owen_campbell:
   type: tuple
   objects:
     Owen Campbell:
-      role: whole
+      role: subpart
     Owen:
-      role: part
+      role: subpart
 
 org.omni4d.example.campbell-owen_campbell:
   type: tuple
   objects:
     Owen Campbell:
-      role: whole
+      role: subpart
     Campbell:
-      role: part
+      role: subpart
 
-# The two previous tuples are members of the whole_part_tuples class.
+# The two previous tuples are members of the part_subpart_tuples class.
 org.omni4d.example.classify-owen-owen_campbell:
   type: tuple
   objects:
-    org.omni4d.core.whole_part_tuples:
+    org.omni4d.core.part_subpart_tuples:
       role: class
     org.omni4d.example.owen-owen_campbell:
       role: member
@@ -107,7 +107,7 @@ org.omni4d.example.classify-owen-owen_campbell:
 org.omni4d.example.classify-campbell-owen_campbell:
   type: tuple
   objects:
-    org.omni4d.core.whole_part_tuples:
+    org.omni4d.core.part_subpart_tuples:
       role: class
     org.omni4d.example.campbell-owen_campbell:
       role: member
