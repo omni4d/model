@@ -19,23 +19,11 @@ from subprocess import check_output
 # If you wish to use a diferent prefix on branch names, change it here.
 ticket_prefix = 'ticket-'
 
-# Collect the parameters
 commit_msg_filepath = sys.argv[1]
-if len(sys.argv) > 2:
-    commit_type = sys.argv[2]
-else:
-    commit_type = ''
-if len(sys.argv) > 3:
-    commit_hash = sys.argv[3]
-else:
-    commit_hash = ''
-
-# Figure out which branch we're on
 branch = check_output(
     ['git', 'symbolic-ref', '--short', 'HEAD']
 ).strip().decode(encoding='UTF-8')
 
-# Populate the commit message with the issue #, if there is one
 if branch.startswith(ticket_prefix):
     result = re.match('ticket-(.*)', branch)
     issue_number = result.group(1)
