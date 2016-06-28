@@ -8,7 +8,7 @@ org.omni4d.core.class_of_events:
 org.omni4d.core.class_of_tuples:
   type: class
 
-org.omni4d.core.class_of_classes:part
+org.omni4d.core.class_of_classes:
   type: class
 
 
