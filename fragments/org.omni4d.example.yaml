@@ -16,11 +16,11 @@ org.omni4d.example.1--persons:
     org.omni4d.example.1:
       role: member
 
-# And that tuple is itself a member of the class_members_tuples class
+# And that tuple is itself a member of the class_member_tuples class
 org.omni4d.example.1--persons.classify:
   type: tuple
   objects:
-    org.omni4d.core.class_members_tuples:
+    org.omni4d.core.class_member_tuples:
       role: class
     org.omni4d.example.1--persons:
       role: member
@@ -47,11 +47,11 @@ org.omni4d.example.Owen--names:
     Owen:
       role: member
 
-# And those two tuples are members of the class_members_tuples class
+# And those two tuples are members of the class_member_tuples class
 org.omni4d.example.Owen--character_strings.classify:
   type: tuple
   objects:
-    org.omni4d.core.class_members_tuples:
+    org.omni4d.core.class_member_tuples:
       role: class
     org.omni4d.example.Owen--character_strings:
       role: member
@@ -59,7 +59,7 @@ org.omni4d.example.Owen--character_strings.classify:
 org.omni4d.example.Owen--names.classify:
   type: tuple
   objects:
-    org.omni4d.core.class_members_tuples:
+    org.omni4d.core.class_member_tuples:
       role: class
     org.omni4d.example.Owen--names:
       role: member
@@ -87,7 +87,7 @@ org.omni4d.example.Campbell--names:
 org.omni4d.example.Campbell--character_strings.classify:
   type: tuple
   objects:
-    org.omni4d.core.class_members_tuples:
+    org.omni4d.core.class_member_tuples:
       role: class
     org.omni4d.example.Campbell--character_strings:
       role: member
@@ -95,7 +95,7 @@ org.omni4d.example.Campbell--character_strings.classify:
 org.omni4d.example.Campbell--names.classify:
   type: tuple
   objects:
-    org.omni4d.core.class_members_tuples:
+    org.omni4d.core.class_member_tuples:
       role: class
     org.omni4d.example.Campbell--names:
       role: member
@@ -123,7 +123,7 @@ org.omni4d.example.Owen_Campbell--names:
 org.omni4d.example.Owen_Campbell--character_strings.classify:
   type: tuple
   objects:
-    org.omni4d.core.class_members_tuples:
+    org.omni4d.core.class_member_tuples:
       role: class
     org.omni4d.example.Owen_Campbell--character_strings:
       role: member
@@ -131,7 +131,7 @@ org.omni4d.example.Owen_Campbell--character_strings.classify:
 org.omni4d.example.Owen_Campbell--names.classify:
   type: tuple
   objects:
-    org.omni4d.core.class_members_tuples:
+    org.omni4d.core.class_member_tuples:
       role: class
     org.omni4d.example.Owen_Campbell--names:
       role: member
@@ -170,11 +170,11 @@ org.omni4d.example.Campbell--Owen_Campbell.classify:
     org.omni4d.example.Campbell--Owen_Campbell:
       role: member
 
-# And those are members of the class_members_tuples class
+# And those are members of the class_member_tuples class
 org.omni4d.example.Owen--Owen_Campbell.classify.classify:
   type: tuple
   objects:
-    org.omni4d.core.class_members_tuples:
+    org.omni4d.core.class_member_tuples:
       role: class
     org.omni4d.example.Owen--Owen_Campbell.classify:
       role: member
@@ -182,7 +182,7 @@ org.omni4d.example.Owen--Owen_Campbell.classify.classify:
 org.omni4d.example.Campbell--Owen_Campbell.classify.classify:
   type: tuple
   objects:
-    org.omni4d.core.class_members_tuples:
+    org.omni4d.core.class_member_tuples:
       role: class
     org.omni4d.example.Campbell--Owen_Campbell.classify:
       role: member
@@ -205,11 +205,11 @@ org.omni4d.example.Owen_Campbell--1.classify:
     org.omni4d.example.Owen_Campbell--1:
       role: member
 
-# And the previous tuple is itself a member of the class_members_tuples class
+# And the previous tuple is itself a member of the class_member_tuples class
 org.omni4d.example.Owen_Campbell--1.classify.classify:
   type: tuple
   objects:
-    org.omni4d.core.class_members_tuples:
+    org.omni4d.core.class_member_tuples:
       role: class
     org.omni4d.example.Owen_Campbell--1.classify:
       role: member
