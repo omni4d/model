@@ -65,7 +65,7 @@ org.omni4d.identification.identification_tuples--class_of_tuples:
     org.omni4d.identification.identification_tuples:
       role: subpart
 
-org.omni4d.identification.identification_tuples--class_of_tuples:
+org.omni4d.identification.identification_tuples--class_of_tuples.classify:
   type: tuple
   objects:
     org.omni4d.core.part_subpart_tuples:
