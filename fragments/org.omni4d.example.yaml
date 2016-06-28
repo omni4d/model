@@ -8,12 +8,21 @@ org.omni4d.example.1:
 
 # I'm a person, so my sign is a member of the persons class.
 # That's modelled with a tuple
-org.omni4d.example.1-persons:
+org.omni4d.example.1--persons:
   type: tuple
   objects:
     org.omni4d.core.persons:
       role: class
     org.omni4d.example.1:
+      role: member
+
+# And that tuple is itself a member of the class_members_tuples class
+org.omni4d.example.1--persons.classify:
+  type: tuple
+  objects:
+    org.omni4d.core.class_members_tuples:
+      role: class
+    org.omni4d.example.1--persons:
       role: member
 
 # Then we need some character_strings for my name(s).
@@ -22,7 +31,7 @@ org.omni4d.example.1-persons:
 Owen:
   type: individual
 
-org.omni4d.example.owen-character_strings:
+org.omni4d.example.Owen--character_strings:
   type: tuple
   objects:
     org.omni4d.core.character_strings:
@@ -30,19 +39,36 @@ org.omni4d.example.owen-character_strings:
     Owen:
       role: member
 
-org.omni4d.example.owen-names:
+org.omni4d.example.Owen--names:
   type: tuple
   objects:
     org.omni4d.identification.names:
       role: class
     Owen:
+      role: member
+
+# And those two tuples are members of the class_members_tuples class
+org.omni4d.example.Owen--character_strings.classify:
+  type: tuple
+  objects:
+    org.omni4d.core.class_members_tuples:
+      role: class
+    org.omni4d.example.Owen--character_strings:
+      role: member
+
+org.omni4d.example.Owen--names.classify:
+  type: tuple
+  objects:
+    org.omni4d.core.class_members_tuples:
+      role: class
+    org.omni4d.example.Owen--names:
       role: member
 
 # We repeat the pattern for my second name.
 Campbell:
   type: individual
 
-org.omni4d.example.campbell-character_strings:
+org.omni4d.example.Campbell--character_strings:
   type: tuple
   objects:
     org.omni4d.core.character_strings:
@@ -50,19 +76,35 @@ org.omni4d.example.campbell-character_strings:
     Campbell:
       role: member
 
-org.omni4d.example.campbell-names:
+org.omni4d.example.Campbell--names:
   type: tuple
   objects:
     org.omni4d.identification.names:
       role: class
     Campbell:
+      role: member
+
+org.omni4d.example.Campbell--character_strings.classify:
+  type: tuple
+  objects:
+    org.omni4d.core.class_members_tuples:
+      role: class
+    org.omni4d.example.Campbell--character_strings:
+      role: member
+
+org.omni4d.example.Campbell--names.classify:
+  type: tuple
+  objects:
+    org.omni4d.core.class_members_tuples:
+      role: class
+    org.omni4d.example.Campbell--names:
       role: member
 
 # And we repeat it again for my full name.
 Owen Campbell:
   type: individual
 
-org.omni4d.example.owen_campbell-character_strings:
+org.omni4d.example.Owen_Campbell--character_strings:
   type: tuple
   objects:
     org.omni4d.core.character_strings:
@@ -70,7 +112,7 @@ org.omni4d.example.owen_campbell-character_strings:
     Owen Campbell:
       role: member
 
-org.omni4d.example.owen_campbell-names:
+org.omni4d.example.Owen_Campbell--names:
   type: tuple
   objects:
     org.omni4d.identification.names:
@@ -78,8 +120,24 @@ org.omni4d.example.owen_campbell-names:
     Owen Campbell:
       role: member
 
+org.omni4d.example.Owen_Campbell--character_strings.classify:
+  type: tuple
+  objects:
+    org.omni4d.core.class_members_tuples:
+      role: class
+    org.omni4d.example.Owen_Campbell--character_strings:
+      role: member
+
+org.omni4d.example.Owen_Campbell--names.classify:
+  type: tuple
+  objects:
+    org.omni4d.core.class_members_tuples:
+      role: class
+    org.omni4d.example.Owen_Campbell--names:
+      role: member
+
 # The strings Owen and Campbell can be assembled to form my full name
-org.omni4d.example.owen-owen_campbell:
+org.omni4d.example.Owen--Owen_Campbell:
   type: tuple
   objects:
     Owen Campbell:
@@ -87,7 +145,7 @@ org.omni4d.example.owen-owen_campbell:
     Owen:
       role: subpart
 
-org.omni4d.example.campbell-owen_campbell:
+org.omni4d.example.Campbell--Owen_Campbell:
   type: tuple
   objects:
     Owen Campbell:
@@ -96,24 +154,41 @@ org.omni4d.example.campbell-owen_campbell:
       role: subpart
 
 # The two previous tuples are members of the part_subpart_tuples class.
-org.omni4d.example.classify-owen-owen_campbell:
+org.omni4d.example.Owen--Owen_Campbell.classify:
   type: tuple
   objects:
     org.omni4d.core.part_subpart_tuples:
       role: class
-    org.omni4d.example.owen-owen_campbell:
+    org.omni4d.example.Owen--Owen_Campbell:
       role: member
 
-org.omni4d.example.classify-campbell-owen_campbell:
+org.omni4d.example.Campbell--Owen_Campbell.classify:
   type: tuple
   objects:
     org.omni4d.core.part_subpart_tuples:
       role: class
-    org.omni4d.example.campbell-owen_campbell:
+    org.omni4d.example.Campbell--Owen_Campbell:
+      role: member
+
+# And those are members of the class_members_tuples class
+org.omni4d.example.Owen--Owen_Campbell.classify.classify:
+  type: tuple
+  objects:
+    org.omni4d.core.class_members_tuples:
+      role: class
+    org.omni4d.example.Owen--Owen_Campbell.classify:
+      role: member
+
+org.omni4d.example.Campbell--Owen_Campbell.classify.classify:
+  type: tuple
+  objects:
+    org.omni4d.core.class_members_tuples:
+      role: class
+    org.omni4d.example.Campbell--Owen_Campbell.classify:
       role: member
 
 # Now we can use a tuple to associate the name with the person
-org.omni4d.example.owen_campbell-1:
+org.omni4d.example.Owen_Campbell--1:
   type: tuple
   objects:
     org.omni4d.example.1:
@@ -122,10 +197,19 @@ org.omni4d.example.owen_campbell-1:
       role: names
 
 # That tuple is a member of the naming_tuples class
-org.omni4d.example.classify-owen_campbell-1:
+org.omni4d.example.Owen_Campbell--1.classify:
   type: tuple
   objects:
     org.omni4d.identification.naming_tuples:
       role: class
-    org.omni4d.example.owen_campbell-1:
+    org.omni4d.example.Owen_Campbell--1:
+      role: member
+
+# And the previous tuple is itself a member of the class_members_tuples class
+org.omni4d.example.Owen_Campbell--1.classify.classify:
+  type: tuple
+  objects:
+    org.omni4d.core.class_members_tuples:
+      role: class
+    org.omni4d.example.Owen_Campbell--1.classify:
       role: member
