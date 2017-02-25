@@ -47,9 +47,9 @@ org.omni4d.core.second_assertion_tuple:
   type: tuple
   objects:
     org.omni4d.core.class_of_tuples:
-      role: part
+      role: org.omni4d.core.role.part
     org.omni4d.core.part_subpart_tuples:
-      role: subpart
+      role: org.omni4d.core.role.subpart
 
 
 # In order to represent individual people, we create the class persons. All
@@ -63,9 +63,9 @@ org.omni4d.core.persons--individuals:
   type: tuple
   objects:
     org.omni4d.core.class_of_individuals:
-      role: part
+      role: org.omni4d.core.role.part
     org.omni4d.core.persons:
-      role: subpart
+      role: org.omni4d.core.role.subpart
 
 # In order to show that the previous tuple is a part_subpart tuple, we make it a
 # member of the part_subpart_tuples class.
@@ -73,9 +73,9 @@ org.omni4d.core.persons--individuals.classify:
   type: tuple
   objects:
     org.omni4d.core.part_subpart_tuples:
-      role: class
+      role: org.omni4d.core.role.class
     org.omni4d.core.persons--individuals:
-      role: member
+      role: org.omni4d.core.role.member
 
 # The previous tuple is itself a member of the class_members_tuple class. This is
 # an example of the first assertion.
@@ -83,9 +83,9 @@ org.omni4d.core.persons--individuals.classify.classify:
   type: tuple
   objects:
     org.omni4d.core.class_member_tuples:
-      role: class
+      role: org.omni4d.core.role.class
     org.omni4d.core.persons--individuals.classify:
-      role: member
+      role: org.omni4d.core.role.member
 
 # A similar pattern arises for organisations.
 org.omni4d.core.organisations:
@@ -95,25 +95,25 @@ org.omni4d.core.organisations--individuals:
   type: tuple
   objects:
     org.omni4d.core.class_of_individuals:
-      role: part
+      role: org.omni4d.core.role.part
     org.omni4d.core.organisations:
-      role: subpart
+      role: org.omni4d.core.role.subpart
 
 org.omni4d.core.organisations--individuals.classify:
   type: tuple
   objects:
     org.omni4d.core.part_subpart_tuples:
-      role: class
+      role: org.omni4d.core.role.class
     org.omni4d.core.organisations--individuals:
-      role: member
+      role: org.omni4d.core.role.member
 
 org.omni4d.core.organisations--individuals.classify.classify:
   type: tuple
   objects:
     org.omni4d.core.class_member_tuples:
-      role: class
+      role: org.omni4d.core.role.class
     org.omni4d.core.organisations--individuals.classify:
-      role: member
+      role: org.omni4d.core.role.member
 
 # And the same pattern again for character_strings
 org.omni4d.core.character_strings:
@@ -123,22 +123,22 @@ org.omni4d.core.character_strings--individuals:
   type: tuple
   objects:
     org.omni4d.core.class_of_individuals:
-      role: part
+      role: org.omni4d.core.role.part
     org.omni4d.core.character_strings:
-      role: subpart
+      role: org.omni4d.core.role.subpart
 
 org.omni4d.core.character_strings--individuals.classify:
   type: tuple
   objects:
     org.omni4d.core.part_subpart_tuples:
-      role: class
+      role: org.omni4d.core.role.class
     org.omni4d.core.character_strings--individuals:
-      role: member
+      role: org.omni4d.core.role.member
 
 org.omni4d.core.character_strings--individuals.classify.classify:
   type: tuple
   objects:
     org.omni4d.core.class_member_tuples:
-      role: class
+      role: org.omni4d.core.role.class
     org.omni4d.core.character_strings--individuals.classify:
-      role: member
+      role: org.omni4d.core.role.member
