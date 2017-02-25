@@ -5,25 +5,25 @@ org.omni4d.identification.identifiers--individuals:
   type: tuple
   objects:
     org.omni4d.core.class_of_individuals:
-      role: part
+      role: org.omni4d.core.role.part
     org.omni4d.identification.identifiers:
-      role: subpart
+      role: org.omni4d.core.role.subpart
 
 org.omni4d.identification.identifiers--individuals.classify:
   type: tuple
   objects:
     org.omni4d.core.part_subpart_tuples:
-      role: class
+      role: org.omni4d.core.role.class
     org.omni4d.identification.identifiers--individuals:
-      role: member
+      role: org.omni4d.core.role.member
 
 org.omni4d.identification.identifiers--individuals.classify.classify:
   type: tuple
   objects:
     org.omni4d.core.class_member_tuples:
-      role: class
+      role: org.omni4d.core.role.class
     org.omni4d.identification.identifiers--individuals.classify:
-      role: member
+      role: org.omni4d.core.role.member
 
 
 org.omni4d.identification.names:
@@ -33,25 +33,25 @@ org.omni4d.identification.names--individuals:
   type: tuple
   objects:
     org.omni4d.identification.identifiers:
-      role: part
+      role: org.omni4d.core.role.part
     org.omni4d.identification.names:
-      role: subpart
+      role: org.omni4d.core.role.subpart
 
 org.omni4d.identification.names--individuals.classify:
   type: tuple
   objects:
     org.omni4d.core.part_subpart_tuples:
-      role: class
+      role: org.omni4d.core.role.class
     org.omni4d.identification.names--individuals:
-      role: member
+      role: org.omni4d.core.role.member
 
 org.omni4d.identification.names--individuals.classify.classify:
   type: tuple
   objects:
     org.omni4d.core.class_member_tuples:
-      role: class
+      role: org.omni4d.core.role.class
     org.omni4d.identification.names--individuals.classify:
-      role: member
+      role: org.omni4d.core.role.member
 
 
 org.omni4d.identification.identification_tuples:
@@ -61,25 +61,25 @@ org.omni4d.identification.identification_tuples--class_of_tuples:
   type: tuple
   objects:
     org.omni4d.core.class_of_tuples:
-      role: part
+      role: org.omni4d.core.role.part
     org.omni4d.identification.identification_tuples:
-      role: subpart
+      role: org.omni4d.core.role.subpart
 
 org.omni4d.identification.identification_tuples--class_of_tuples.classify:
   type: tuple
   objects:
     org.omni4d.core.part_subpart_tuples:
-      role: class
+      role: org.omni4d.core.role.class
     org.omni4d.identification.identification_tuples--class_of_tuples:
-      role: member
+      role: org.omni4d.core.role.member
 
 org.omni4d.identification.identification_tuples--class_of_tuples.classify.classify:
   type: tuple
   objects:
     org.omni4d.core.class_member_tuples:
-      role: class
+      role: org.omni4d.core.role.class
     org.omni4d.identification.identification_tuples--class_of_tuples.classify:
-      role: member
+      role: org.omni4d.core.role.member
 
 
 
@@ -90,22 +90,22 @@ org.omni4d.identification.naming_tuples--identification_tuples:
   type: tuple
   objects:
     org.omni4d.identification.identification_tuples:
-      role: part
+      role: org.omni4d.core.role.part
     org.omni4d.identification.naming_tuples:
-      role: subpart
+      role: org.omni4d.core.role.subpart
 
 org.omni4d.identification.naming_tuples--identification_tuples.classify:
   type: tuple
   objects:
     org.omni4d.core.part_subpart_tuples:
-      role: class
+      role: org.omni4d.core.role.class
     org.omni4d.identification.naming_tuples--identification_tuples:
-      role: member
+      role: org.omni4d.core.role.member
 
 org.omni4d.identification.naming_tuples--identification_tuples.classify.classify:
   type: tuple
   objects:
     org.omni4d.core.class_member_tuples:
-      role: class
+      role: org.omni4d.core.role.class
     org.omni4d.identification.naming_tuples--identification_tuples.classify:
-      role: member
+      role: org.omni4d.core.role.member
